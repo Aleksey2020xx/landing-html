@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adapted.css">
+    <title>TK LoG</title>
+</head>
+<body>
+
+    <div class="btnToTop btnToTop_show">
+        <a href="#head">
+            <img src="img/arrow.png" alt="">
+        </a>
+    </div>
+
+
+    <section class="header__menu-small container-fluid">
+        <div class="row">
+            <div class="burger col-2">
+                <a href="#" class="burger__btn">
+                    <span></span>
+                </a>
+                <ul class="burger__menu">
+                    <li class="burger__menu-item col-12"><a href="#">Главная</a></li>
+                    <hr class="col-4">
+                    <li class="burger__menu-item col-12"><a href="#benefits">О нас</a></li>
+                    <hr class="col-4">
+                    <li class="burger__menu-item col-12"><a href="#auto">Автопарк</a></li>
+                    <hr class="col-4">
+                    <li class="burger__menu-item col-12"><a href="#comments">Отзывы</a></li>
+                    <hr class="col-4">
+                    <li class="burger__menu-item col-12"><a href="#news">Новости</a></li>
+                    <hr class="col-4">
+                    <li class="burger__menu-item col-12"><a href="#contacts">Контакты</a></li>
+                    <hr class="col-4">
+                </ul>
+            </div>
+            <div class="header-min__logo col-md-3 col-4 offset-md-2 offset-sm-1 col-0">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="header-min__block-items col-md-4 col-sm-5 col-6 offset-md-1 offset-0">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="header-min__block-item col-1">
+                            <a href="https://t.me/tk_log" target="_blank">
+                                <img src="img/icon.png" alt="">
+                            </a>
+                        </div>
+                        <div class="header-min__block-item col-sm-8 col-9">
+                            <a href="tel:+79231711056">8-923-171-10-56</a>
+                        </div>
+                        <div class="header-min__block-item offset-1">
+                            <a href="mailto: tk_log@bk.ru">tk_log@bk.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="header fullscreen container-fluid" id="head">
+        <div class="header__elements container">
+            
+            <div class="header__sub-menu row">
+                <div class="header__logo col-2">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-xl-6 col-lg-7 offset-xl-4 offset-lg-3">
+                    <div class="sub-menu__items container">
+                        <div class="row ">
+                            <div class="sub-menu__item col-3">
+                                <a href="mailto: tk_log@bk.ru">tk_log@bk.ru</a>
+                            </div>
+                            <div class="sub-menu__item col-1">
+                                <a href="https://t.me/tk_log" target="_blank">
+                                    <img src="img/icon.png" alt="">
+                                </a>
+                            </div>
+                            <div class="sub-menu__item col-4">
+                                <a href="tel:+79231711056">8-923-171-10-56</a>
+                            </div>
+                            <div class="sub-menu__item input-search col-4">
+                                <input type="text" placeholder="Поиск" class="col-10" id="inputId" name="search">
+                                <button class="col-2" onclick="javascript: FindOnPage('inputId'); return false;">
+                                    <img src="img/search.png" alt="" >
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__menu row">
+                <li class="menu__btn">
+                    <a href="#" >Главная</a>
+                </li>
+                <li class="menu__btn">
+                    <a href="#benefits">О нас</a>
+                </li>
+                <li class="menu__btn">
+                    <a href="#auto">Автопарк</a>
+                </li>
+                <li class="menu__btn">
+                    <a href="#comments">Отзывы</a>
+                </li>
+                <li class="menu__btn">
+                    <a href="#news">Новости</a>
+                </li>
+                <li class="menu__btn">
+                    <a href="#contacts">Контакты</a>
+                </li>
+            </ul>
+            <section class="header__text row">
+                <h1 class="header__text-title col-lg-6 col-md-10 col-12">Перевезем ваш груз <br> из точки А в точку Б</h1>
+                <h3 class="header__text-sub-title col-lg-6 col-md-10 col-12">Максимально эффективно</h3>
+                <p class="header__text-articl col-lg-6 col-md-10 col-12">Наша фирма гарантирует своевременную <br> отправку и надежную доставку Вашего <br> груза на всей территории России</p>
+                <button class="header__text-btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-7 offset-xl-1 offset-0" type="button">Оставить заявку</button>
+            </section>
+        </div>
+    </header>
+
+    <section class="body container-fluid">   
+        <div class="row">
+            <div class="body__element container-fluid">
+                <div class="body__benefits container" id="benefits">
+                    <div class="benefits-row row">
+                        <div class="benefits__cart col-md-2 col-2">
+                            <div class="card__body">
+                                <h3 class="benefits__title">204</h3>
+                                <p class="benefits__text">перевозок <br> выполнено в <br>2020 году</p>
+                            </div>
+                        </div>
+                        <div class="benefits__cart col-md-2 col-2">
+                            <div class="card__body">
+                                <h3 class="benefits__title">3</h3>
+                                <p class="benefits__text">года <br> на рынке</p>
+                            </div>
+                        </div>
+                        <div class="benefits__cart col-md-2 col-2">
+                            <div class="card__body">
+                                <h3 class="benefits__title">3500</h3>
+                                <p class="benefits__text">тонн грузов <br> перевезено <br> в 2020</p>
+                            </div>
+                        </div>
+                        <div class="benefits__cart col-md-2 col-2">
+                            <div class="card__body">
+                                <h3 class="benefits__title">4/5</h3>
+                                <p class="benefits__text">рейтинг <br> компании </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="element__title">О нас</h2>
+                <h3 class="element__sub-title">Почему именно мы</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="body__prewie container">
+                <div class="row ">
+                    <div class="prewie__item col-4">
+                        <img src="img/help.png" alt="">
+                        <p class="prewie__text">Поддержка <br> специалистов</p>
+                        <hr class="col-2">
+                    </div>
+                    <div class="prewie__item  col-4">
+                        <img src="img/icon-2.png" alt="">
+                        <p class="prewie__text">Работа по <br> договору</p>
+                        <hr class="col-2">
+                    </div>
+                    <div class="prewie__item  col-4">
+                        <img src="img/icon-3.png" alt="">
+                        <p class="prewie__text">Долгосрочные <br> отношения</p>
+                        <hr class="col-2">
+                    </div>
+                    <div class="prewie__item  col-4">
+                        <img src="img/auto.png" alt="">
+                        <p class="prewie__text">Большой выбор <br> авто</p>
+                        <hr class="col-2">
+                    </div>
+                    <div class="prewie__item col-4">
+                        <img src="img/icon-4.png" alt="">
+                        <p class="prewie__text">Доставка точно <br> в срок</p>
+                        <hr class="col-2">
+                    </div>
+                    <div class="prewie__item  col-4">
+                        <img src="img/icon-5.png" alt="">
+                        <p class="prewie__text">Профи своего <br> дела</p>
+                        <hr class="col-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="body__element container-fluid">
+                <h2 class="element__title" id="auto">Автопарк</h2>
+                <h3 class="element__sub-title">Наш автопарк предлагает широкий <br> выбор грузовых автомобилей <br> для любого типа перевозок</h3>
+            </div>
+        </div>
+        <div class="body__auto container-fluid">
+            <div class="row justify-content-center">
+                <div class="auto__cart col-xl-5 col-md-5 col-12" id="card1">
+                    <div class="card__front  auto__cart-1">
+                        <h3 class="cart__title">Пятитонник</h3>
+                        <p class="cart__text"></p>
+                    </div>
+                    <div class="card__back">
+                        <h3 class="back__title"></h3>
+                        <p class="back__text">Грузоперевозка до 5 тонн,  объем до 40 м3 (10 палетт)</p>
+                    </div>
+                </div>
+                <div class="auto__cart  col-xl-6 offset-xl-1 col-md-6 col-12 offset-0" id="card2">
+                    <div class="card__front auto__cart-2">
+                        <h3 class="cart__title">Десятитонник</h3>
+                        <p class="cart__text"></p>
+                    </div>
+                    <div class="card__back">
+                        <h3 class="back__title"></h3>
+                        <p class="back__text">Грузоперевозка до 10 тонн,  объем до 60 м3 (16 палетт)</p>
+                    </div>
+                </div>
+                <div class="auto__cart  col-xl-6 col-md-6 col-12" id="card3">
+                    <div class="card__front auto__cart-3">
+                        <h3 class="cart__title">Рефрижератор</h3>
+                        <p class="cart__text"></p>
+                    </div>
+                    <div class="card__back">
+                        <h3 class="back__title"></h3>
+                        <p class="back__text">Грузоперевозка до 20 тонн,  объем до 82 м3 (32 палетт),  особый температурный режим</p>
+                    </div>
+                </div>
+                <div class="auto__cart  col-xl-5 offset-xl-1 col-md-5 offset-lg-0 col-12" id="card4">
+                    <div class="card__front auto__cart-4">
+                        <h3 class="cart__title">Термос</h3>
+                        <p class="cart__text"></p>
+                    </div>
+                    <div class="card__back">
+                        <h3 class="back__title"></h3>
+                        <p class="back__text">Грузоперевозка до 20 тонн,  объем до 82 м3 (32 палетт)</p>
+                    </div>
+                </div>
+                <div class="auto__cart col-xl-5 col-md-5 col-12" id="card5">
+                    <div class="card__front auto__cart-5">
+                        <h3 class="cart__title">Полуприцеп (шторник с бортами)</h3>
+                        <p class="cart__text"></p>
+                    </div>
+                    <div class="card__back">
+                        <h3 class="back__title"></h3>
+                        <p class="back__text">Грузоперевозка до 20 тонн,  объем до 82 м3 (32 палетт)</p>
+                    </div>
+                </div>
+                <div class="auto__cart  col-xl-6 offset-xl-1 col-md-6 offset-lg-0 col-12" id="card6">
+                    <div class="card__front auto__cart-6 no-card__style">
+                        <h3 class="cart__title">Железнодорожные перевозки</h3>
+                        <p class="cart__text"></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="body__element container-fluid">
+                <h2 class="element__title" id="comments">Вот что о нас говорят другие</h2>
+                <h3 class="element__sub-title">Для нас очень важно, чтобы груз клиента <br> был доставлен качественно и в срок. <br> Поэтому мы нацелены на результат <br> и долгосрочную перспективу </h3>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Ирина</div>
+                        <div class="head__profile">менеджер ИП Блинов В.Ю.</div>
+                    </div>
+                </div>
+                <div class="slide__comment">“Надежные и добросовестные партнеры. Машины подают вовремя, груз доставляют в срок. Отработали несколько рейсов, проблем ни разу не возникало. Отдельное спасибо Яне за ее профессионализм. Рекомендую всем. Надеюсь на дальнейшее сотрудничество!"</div>
+                <div class="slide__date ">03.03.2021г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Алексей</div>
+                        <div class="head__profile">ООО "Август"</div>
+                    </div>
+                </div>
+                <div class="slide__comment">Надежный, ответственый перевозчик! Приятно работать! Рекомендуем к сотрудничеству!!!</div>
+                <div class="slide__date ">05.07.2020г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div>    
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Ирина</div>
+                        <div class="head__profile">менеджер ИП Блинов В.Ю.</div>
+                    </div>
+                </div>
+                <div class="slide__comment">“Надежные и добросовестные партнеры. Машины подают вовремя, груз доставляют в срок. Отработали несколько рейсов, проблем ни разу не возникало. Отдельное спасибо Яне за ее профессионализм. Рекомендую всем. Надеюсь на дальнейшее сотрудничество!"</div>
+                <div class="slide__date ">03.03.2021г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div> 
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Ирина</div>
+                        <div class="head__profile">ООО "КамионТрасСтрой"</div>
+                    </div>
+                </div>
+                <div class="slide__comment">"Ответственый и надежный перевозчик! Работать очень приятно, все выполнено без проблем и нареканий, в срок. Всем рекомендую! Успеха и процветания!"</div>
+                <div class="slide__date ">14.02.2021г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div>  
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Владимир</div>
+                        <div class="head__profile">ООО "ДВИжение НСК".</div>
+                    </div>
+                </div>
+                <div class="slide__comment">Работали впервые, все оперативно от погрузки до оплаты. Рекомендую.</div>
+                <div class="slide__date ">04.04.2021г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Татьяна</div>
+                        <div class="head__profile">ООО ЛК "Легион"</div>
+                    </div>
+                </div>
+                <div class="slide__comment">Отличный перевозчик, все условия были выполнены в срок и согласно завке! Рекомендуем к сотрудничеству!</div>
+                <div class="slide__date ">19.11.2020г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Юлия</div>
+                        <div class="head__profile">ООО "АвтоКараван"</div>
+                    </div>
+                </div>
+                <div class="slide__comment">Вячеслав надежный и ответственный перевозчик. Всегда на связи, вовремя на погрузке-разгрузке. Вежливое общение. Надеемся на дальнейшее сотрудничество. Рекомендую!</div>
+                <div class="slide__date ">28.04.2020г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div>   
+            <div class="slider__slide">
+                <div class="slide__head">
+                    <div class="head__photo">
+                        <img src="img/avatar.png" alt="ава">
+                    </div>
+                    <div class="block__title">
+                        <div class="head__name">Ольга</div>
+                        <div class="head__profile">"Транспортные Решения" (ИП Бажан Дмитрий Сергеевич)</div>
+                    </div>
+                </div>
+                <div class="slide__comment">Очень ответственный перевозчик, подача машины в срок, все условия выполнены на отлично! Работают оперативно и качественно, все на высшем уровне! Отдельное спасибо Вячеславу Евгеньевичу, приятно работать с профессионалами!</div>
+                <div class="slide__date ">28.04.2020г.</div>
+                <div class="slide__rating">
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                    <div class="rating__polygon">
+                        <img src="img/polygon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="body__element container-fluid">
+                <h2 class="element__title" id="news">Наши новости</h2>
+                <h3 class="element__sub-title">Мы постоянно обновляем и <br> расширяем перечень услуг для <br> нагих клиентов. За обновлениями <br> Вы можете следить <br> в нашем Telegram-канале</h3>
+            </div>
+        </div>
+        <div class="body__news container">
+            <div class="row">
+                <div class="news col-xl-4 col-sm-6 col-7 offset-xl-0 offset-sm-1 offset-0">
+                    <div class="news__img">
+                        <img src="img/news1.png" alt="">
+                    </div>
+                    <div class="news__text">
+                        <div class="news__date">01.04.2021</div>
+                        <h4 class="news__title">Весенние ограничения</h4>
+                        <p class="news__article">С 1 апреля вступили в силу весенние ограничения движения в 14 регионах России. Сроки ограничений устанавливают власти регионов, при этом в некоторых областных и даже районных центрах муниципалитеты могут устанавливать свои, обособленные сроки. В большинстве случаев ограничивается максимальная осевая нагрузка.</p>
+                    </div>
+                </div>
+                <div class="news news-r col-xl-4 col-sm-6 col-6 ">
+                    <div class="news__img">
+                        <img src="img/news2.png" alt="">
+                    </div>
+                    <div class="news__text">
+                        <div class="news__date">03.04.2021</div>
+                        <h4 class="news__title">Пишите письма...</h4>
+                        <p class="news__article">В волгоградском областном управлении МВД все-таки отреагировали на многочисленные жалобы перевозчиком из-за пункта АСВГК на Третьей Продольной магистрали. Дальнобойщики жалуются на необоснованные штрафы, а также возмущены тем, что постановления невозможно обжаловать в дистанционном режиме.</p>
+                    </div>
+                </div>
+                <div class="news__link  col-xl-3 offset-xl-0 col-sm-4 col-4 offset-sm-1 offset-1 ">
+                    <h1 class="link__title">Подпишитесь <br> на наши новости</h1>
+                    <div class="link__btn">
+                        <a href="https://t.me/tk_log">Подписаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="body__element container-fluid">
+                <h2 class="element__title" id="contacts">Контактная информация</h2>
+                <h3 class="element__sub-title">Чтобы отправить Ваш груз - Вам нужно всего лишь <br> позвонить нам. Или Вы можете оставить заявку, <br> и наши менеджеры свяжутся с Вами <br> в самое ближайшее время.</h3>
+            </div>
+        </div>
+        <div class="body__form container">
+            <div class="row justify-content-center">
+                <div class="form col-xl-4 col-lg-4 col-sm-8 col-12">
+                    <form action="#" id="form" class="form__block ">
+                    
+                        <div class="form__item">
+                            <label for="formOrg" class="form__label">Название организации:<span>*</span></label>
+                            <input id="formOrg" type="text" name="org" class="form__input _req" placeholder="Название организаций">
+                        </div>
+                        <div class="form__item">
+                            <label for="formName" class="form__label">ФИО контактного лицо:<span>*</span></label>
+                            <input id="formName" type="text" name="name" class="form__input _req" placeholder="ФИО">
+                        </div>
+                        <div class="form__item">
+                            <label for="formNumer" class="form__label">Номер телефона:<span>*</span></label>
+                            <input id="formNumer" type="tel" name="tel" class="form__input _req _tel" placeholder="Номер телефона">
+                        </div>
+                        <div class="form__item">
+                            <label for="formMail" class="form__label">E-mail:<span>*</span></label>
+                            <input id="formMail" type="email" name="email" class="form__input _req _email" placeholder="E-mail">
+                        </div>
+                        <button type="submit" class="form__btn">Оставить заявку</button>
+                        <p class="form__text"><span>*</span> нажимая на кнопку "Оставить завку", Вы даете согласие на обработку персональных данных</p>
+                    </form>
+                </div>
+                <div class="form__contact col-xl-3 col-4 offset-xl-2 offset-1">
+                    <div class="contact__adress">
+                        <div class="adr__icon">
+                            <img src="img/geo.png" alt="">
+                        </div>
+                        <a href="#">Россия, 633511 НСО, Черепановский район, р.п.Посевная ул. Вокзальная, 9-1</a>
+                    </div>
+                    <div class="contact__tel">
+                        <div class="tel__icon">
+                            <img src="img/tel.png" alt="">
+                        </div>
+                        <a href="tel:+79231711056">8-923-171-10-56</a>
+                    </div>
+                    <div class="contact__mail">
+                        <div class="mail__icon">
+                            <img src="img/mail.png" alt="">
+                        </div>
+                        <a href="mailto: tk_log@bk.ru"> tk_log@bk.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container-fluid">
+        <div class="footer__block container">
+            <div class="row">
+                <nav class="footer__prewie col-3">
+                    <div class="prewie__logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <h6 class="prewie__sub-title">Перевезем Ваш груз из точки А в точку Б</h6>
+                    <a href="#" class="nav__item">Россия, 633511 НСО, Черепановский район, р.п.Посевная ул. Вокзальная, 9-1</a>
+                    <a href="tel:+79231711056" class="nav__item">8-923-171-10-56</a>
+                    <a href="mailto: tk_log@bk.ru" class="nav__item"> tk_log@bk.ru</a>
+                </nav>
+                <nav class="footer__nav col-3">
+                    <h6 class="nav__title">Меню навигации</h6>
+                    <a href="#" class="nav__item">Главная</a>
+                    <a href="#benefits" class="nav__item">О нас</a>
+                    <a href="#auto" class="nav__item">Автопарк</a>
+                    <a href="#comments" class="nav__item">Отзывы</a>
+                    <a href="#news" class="nav__item">Новости</a>
+                    <a href="#contacts" class="nav__item">Контакты</a>
+                </nav>
+                <nav class="footer__auto col-3">
+                    <h6 class="nav__title">Автопарк</h6>
+                    <a href="#card1" class="nav__item">Пятитонник</a>
+                    <a href="#card2" class="nav__item">Десятитонник</a>
+                    <a href="#card3" class="nav__item">Рефрижератор</a>
+                    <a href="#card4" class="nav__item">Термос</a>
+                    <a href="#card5" class="nav__item">Полуприцеп</a>
+                    <a href="#card6" class="nav__item">Ж/д перевозки</a>
+                </nav>
+                <div class="footer__link col-3">
+                    <h5 class="link__title nav__title">Подписаться на новости</h5>
+                    <a href="https://t.me/tk_log" class="link__btn link__btn-f">Подписаться</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="sub-footer container-flud">
+        <div class="sub-footer__block container">
+            <div class="row">
+                <span class="col-8">&copy;ИП Пакканен В.Е.</span>
+            </div>
+            <div class="row">
+                <span class="col-8">Все права защищены</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

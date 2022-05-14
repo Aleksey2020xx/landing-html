@@ -1,0 +1,151 @@
+/* Слайдер */
+.slick-slider{}
+.slider {
+    position: relative;
+   
+    padding: 50px 70px 20px;
+    
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+    height: 400px;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide {
+    outline: transparent;
+    width: 450px;
+    min-height: 300px;
+    margin: 40px 0px;
+    padding: 20px 20px 10px;
+    font-size: 16px;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{
+    opacity: 1;
+    transform: scaleX(1.2); transform: scaley(1.25);
+}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+ .slick-slide.slick-center{
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    
+    z-index: 10;
+    font-size: 0;
+    height: 30px;
+    width: 15px;
+    border: transparent;
+    outline: transparent;
+    margin: 0px 40px;
+}
+.slick-arrow:focus {
+    border: transparent;
+    outline: transparent;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    left: 0;
+    background: url(../img/arrow-right.png) 0 0 / 100% no-repeat;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    right: 0;
+    background: url(../img/arrow-left.png) 0 0 / 100% no-repeat;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.slick-dots li{
+    list-style: none;
+    margin-left: 10px;
+}
+/* Активная точка */
+.slick-dots li.slick-active button{
+    border: 1.5px solid #8a8988;
+    background-color: transparent;
+    width: 3px;
+    height: 12px;
+}
+/* Элемент точки */
+.slick-dots li button{
+    font-size: 0;
+    height: 10px;
+    width: 5px;
+    border-radius: 50%;
+    background: #8a8988;
+    border: transparent;
+    outline: transparent;
+}
+
+
+/*Стили слайдов*/
+.slider__slide {
+    background-color: #fff;
+    text-align: center;
+    opacity: 0.4;
+    box-shadow: 3px 2px 10px 2px rgba(255, 255, 255, 1);
+}
+.slide__head {
+    display: flex;
+    justify-content: space-around;
+}
+.head__photo img {
+    height: 90px;
+    width: 90px;
+}
+ .slick-slide.slick-active .head__photo img {
+    width: 120px;
+}
+.head__name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "PTSerif";
+}
+.head__profile {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "PTSerif";
+}
+.slide__comment {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "PTSerif";
+}
+.slide__date {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "PTSerif";
+}
+.slide__rating {
+    display: flex;
+    justify-content: flex-end;
+}
+.rating__polygon {
+    
+}
+.rating__polygon img{
+    height: 10px;
+    margin-right: 4px;
+}
